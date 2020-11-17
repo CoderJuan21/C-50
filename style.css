@@ -1,0 +1,30 @@
+h1{
+    color:red;
+}
+
+/**{
+    border:solid;
+}*/
+
+.header{
+    background-color:black;
+    display:flex;
+    justify-content:space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.footer{
+    background-color: #129131;
+    display:flex;
+    justify-content: center;
+}
+
+.item{
+    background-color: orange;
+    
+}
