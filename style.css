@@ -1,44 +1,30 @@
+h1{
+    color:red;
+}
 
+/**{
+    border:solid;
+}*/
 
-.cow{
+.header{
+    background-color:black;
+    display:flex;
+    justify-content:space-between;
+}
+
+.grid{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    background-color:coral;
+}
+
+.footer{
+    background-color: #129131;
+    display:flex;
+    justify-content: center;
+}
+
+.item{
+    background-color: orange;
     
-}
-
-.dragon{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    background-color:firebrick;
-}
-
-.Pigeons{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    background-color:grey;
-}
-
-.Teddy{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    background-color:rgb(209, 149, 69);
-}
-
-.Panda{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    background-color:rgb(27, 182, 48);
-}
-
-.Cicada{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    background-color:rgb(168, 120, 74);
 }
